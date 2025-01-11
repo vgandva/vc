@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour hassounds="0" apprev="20913" appversion="7.1.2" start="node2">
+  <panorama id="node2" hideabout="1">
+    <input levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="2048" overlap="1" levelingroll="0" levelbiashidpi="1.000">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="-4.92" fov="120" pan="-86.93" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata nodeid="node2" source="" comment="" datetime="" latitude="" description="" customnodeid="" tags="jayabharathhomes" title="" author="" copyright="" info="" longitude="" heading="0"/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label bordercolor="0x000000" borderalpha="1" wordwrap="1" height="20" background="1" borderradius="1" enabled="1" width="180" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot tilt="-53.21" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-85.99" id="Point01" url="{node3}" target="$fwd"/>
+      <hotspot tilt="-22.06" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-96.8" id="Point02" url="{node4}" target="$fwd"/>
+      <hotspot title="laminate used in tv unit" tilt="17.07" skinid="ht_info" pan="-29.35" id="Point03" description="short description " url="" target=""/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" delay="none" zoomfov="40" zoomafteroutfov="40" zoomoutpause="1" type="mesh" enabled="1" zoomout="0" zoomin="7" blendcolor="0x000000" zoomafterinfov="140" zoomspeed="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" hideabout="1" invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" rubberband="0" contextvr="1">
+      <menulink text="Visit Our Studio" url="https://nathallibuildingdesignandrenderingstudio.in/"/>
+    </control>
+    <vr defaulthsscale="100" skinbuttonposition="1" toggleskinbutton="1"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="2048" overlap="1" levelingroll="0" levelbiashidpi="1.000">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata nodeid="node3" source="" comment="" datetime="" latitude="" description="" customnodeid="" tags="jayabharathhomes" title="" author="" copyright="" info="" longitude="" heading="0"/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label bordercolor="0x000000" borderalpha="1" wordwrap="1" height="20" background="1" borderradius="1" enabled="1" width="180" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot title="door " tilt="-9.27" skinid="ht_info" pan="-42.31" id="Point01" description="short description about door" url="" target=""/>
+      <hotspot tilt="-29.21" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-108.7" id="Point02" url="{node4}" target="$fwd"/>
+      <hotspot tilt="-50.42" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-254.84" id="Point03" url="{node2}" target="$fwd"/>
+      <hotspot tilt="-39.52" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-166.14" id="Point04" url="{node1}" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" delay="none" zoomfov="40" zoomafteroutfov="40" zoomoutpause="1" type="mesh" enabled="1" zoomout="0" zoomin="7" blendcolor="0x000000" zoomafterinfov="140" zoomspeed="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" hideabout="1" invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" rubberband="0" contextvr="1">
+      <menulink text="Visit Our Studio" url="https://nathallibuildingdesignandrenderingstudio.in/"/>
+    </control>
+    <vr defaulthsscale="100" skinbuttonposition="1" toggleskinbutton="1"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="2048" overlap="1" levelingroll="0" levelbiashidpi="1.000">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata nodeid="node4" source="" comment="" datetime="" latitude="" description="" customnodeid="" tags="jayabharathhomes" title="" author="" copyright="" info="" longitude="" heading="0"/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label bordercolor="0x000000" borderalpha="1" wordwrap="1" height="20" background="1" borderradius="1" enabled="1" width="180" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot tilt="-22.87" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-286.55" id="Point01" url="{node2}" target="$fwd"/>
+      <hotspot tilt="-33.81" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-301.34" id="Point02" url="{node3}" target="$fwd"/>
+      <hotspot title="fluted pannel" tilt="9.87" skinid="ht_info" pan="-165" id="Point03" description="short description about it" url="" target=""/>
+      <hotspot tilt="-27.28" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-261.46" id="Point04" url="{node1}" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" delay="none" zoomfov="40" zoomafteroutfov="40" zoomoutpause="1" type="mesh" enabled="1" zoomout="0" zoomin="7" blendcolor="0x000000" zoomafterinfov="140" zoomspeed="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" hideabout="1" invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" rubberband="0" contextvr="1">
+      <menulink text="Visit Our Studio" url="https://nathallibuildingdesignandrenderingstudio.in/"/>
+    </control>
+    <vr defaulthsscale="100" skinbuttonposition="1" toggleskinbutton="1"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input levelingpitch="0" height="2048" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" width="2048" overlap="1" levelingroll="0" levelbiashidpi="1.000">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start tilt="0" fov="100" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fovstereographic="330" fov="140" scaletofit="1" pan="360" fovfisheye="360"/>
+    </view>
+    <userdata nodeid="node1" source="" comment="" datetime="" latitude="" description="" customnodeid="" tags="jayabharathhomes" title="" author="" copyright="" info="" longitude="" heading="0"/>
+    <hotspots wordwrap="1" height="20" smoothmovement="0" width="180">
+      <label bordercolor="0x000000" borderalpha="1" wordwrap="1" height="20" background="1" borderradius="1" enabled="1" width="180" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" textalpha="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
+      <hotspot tilt="-41.84" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-331.45" id="Point01" url="{node2}" target="$fwd"/>
+      <hotspot tilt="-44.37" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-19.03" id="Point02" url="{node3}" target="$fwd"/>
+      <hotspot tilt="-24.56" customimageheight="1024" fov="10" description="" use3D="1" distance3D="5852.19" customimage="media/Jayabharath-Twin-Tower-Logo-1.svg" customimagewidth="1024" title="" skinid="ht_node" pan="-100.08" id="Point03" url="{node4}" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendtime="1" delay="none" zoomfov="40" zoomafteroutfov="40" zoomoutpause="1" type="mesh" enabled="1" zoomout="0" zoomin="7" blendcolor="0x000000" zoomafterinfov="140" zoomspeed="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" lockedwheel="0" contextfullscreen="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" dblclickfullscreen="0" hideabout="1" invertcontrol="1" zoomcentercursor="1" lockedkeyboardzoom="0" speedwheel="1" sensitivity="8" rubberband="0" contextvr="1">
+      <menulink text="Visit Our Studio" url="https://nathallibuildingdesignandrenderingstudio.in/"/>
+    </control>
+    <vr defaulthsscale="100" skinbuttonposition="1" toggleskinbutton="1"/>
+  </panorama>
+  <masternode>
+    <userdata title="" author="" copyright="" comment="" description="" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>

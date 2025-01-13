@@ -49,7 +49,14 @@ a, a:hover, a:active, a:visited {
   right: 40px;
   height: 40px;
   text-align: center;
+  background: linear-gradient(135deg, rgba(58, 68, 84, 0.5), rgba(10, 10, 20, 0.2));
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Futuristic outline */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.3); /* Glow effect */
+  backdrop-filter: blur(8px); /* Transparent glassy effect */
+  overflow: hidden; /* Prevents content overflow */
 }
+
 
 .mobile #titleBar {
   height: 50px;
@@ -79,12 +86,11 @@ body.multiple-scenes.mobile #titleBar {
   height: 100%;
   line-height: 30px;
   padding: 5px;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
-  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff; /* Futuristic glowing text */
   text-overflow: ellipsis;
   white-space: nowrap;
-
   -moz-user-select: text;
   -webkit-user-select: text;
   -ms-user-select: text;
@@ -96,15 +102,27 @@ body.multiple-scenes.mobile #titleBar {
 }
 
 #fullscreenToggle {
-  display: none;
+  display: none; /* Keep hidden initially, or set to `block` when needed */
   position: absolute;
   top: 0;
   right: 0;
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background: linear-gradient(135deg, rgba(103, 115, 131, 0.5), rgba(20, 20, 30, 0.2)); /* Futuristic gradient */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Outline */
+  border-radius: 50%; /* Circular button for modern style */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3); /* Glow effect */
+  backdrop-filter: blur(8px); /* Frosted glass effect */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth interactions */
+}
+
+#fullscreenToggle:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.5); /* Enhance glow on hover */
+}
+
 }
 
 .mobile #fullscreenToggle {
@@ -153,9 +171,20 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background: linear-gradient(135deg, rgba(103, 115, 131, 0.5), rgba(20, 20, 30, 0.2)); /* Futuristic gradient */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Outline */
+  border-radius: 50%; /* Circular button for modern style */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.3); /* Glow effect */
+  backdrop-filter: blur(8px); /* Frosted glass effect */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth interactions */
 }
+
+#autorotateToggle:hover {
+ transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 0.5); /* Enhance glow on hover */
+}
+
 
 .mobile #autorotateToggle {
   width: 50px;
@@ -207,9 +236,20 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background: linear-gradient(135deg, rgba(30, 40, 60, 0.8), rgba(10, 10, 20, 0.5)); /* Futuristic gradient */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+  border-radius: 12px; /* Slightly rounded corners for modern look */
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.6), 0 0 20px rgba(0, 191, 255, 0.3); /* Blue glowing effect */
+  backdrop-filter: blur(8px); /* Frosted glass appearance */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
 }
+
+#sceneListToggle:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.8), 0 0 40px rgba(0, 191, 255, 0.5); /* Enhanced glow on hover */
+}
+
 
 .mobile #sceneListToggle {
   width: 50px;
@@ -262,9 +302,20 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   max-height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  margin-left: 0;
-  -webkit-transition: margin-left 0.5s ease-in-out;
-  transition: margin-left 0.5s ease-in-out;
+  opacity: 0;
+  background: linear-gradient(135deg, rgba(30, 40, 60, 0.8), rgba(10, 10, 20, 0.5));
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  animation: swipe-in 0.5s ease-out forwards;
+}
+
+body.show-menu #sceneList {
+  opacity: 1;
+}
+
+@keyframes swipe-in {
+  0% { background-size: 0% 100%; opacity: 0; }
+  50% { background-size: 100% 100%; opacity: 0.5; }
+  100% { background-size: 100% 100%; opacity: 1; }
 }
 
 .mobile #sceneList {
@@ -273,9 +324,10 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background: linear-gradient(135deg, rgba(30, 40, 60, 0.8), rgba(0, 191, 255, 0.6));
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.4);
 }
+
 
 .mobile #sceneList {
   width: 100%;
@@ -320,13 +372,25 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .no-touch #sceneList .scene:hover {
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background: linear-gradient(135deg, rgba(30, 40, 60, 0.8), rgba(10, 10, 20, 0.5)); /* Gradient */
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.6); /* Glowing effect */
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
 }
 
+
 #sceneList .scene.current {
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgba(30, 40, 60, 0.8);
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
+  animation: glowAnimation 2s infinite alternate;
+}
+
+@keyframes glowAnimation {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+  }
 }
 
 /* Hide scene list when only a single scene exists */
@@ -365,43 +429,42 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   position: absolute;
   left: 100%;
   top: 14px; /* ( 60 - (16 + 2*8) ) / 2 */
-
   margin-left: 3px;
-
   font-size: 16px;
-
   max-width: 300px;
-
   padding: 8px 10px;
-
   border-radius: 5px;
-
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
-
-  color: #fff;
-
+  background-color: rgba(58, 68, 84, 0.8); /* Transparent, dark background */
+  color: #fff; /* White text */
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-
   cursor: pointer;
-
+  
+  /* Initial opacity for hidden state */
   opacity: 0;
 
+  /* Initial position */
   -ms-transform: translateX(-8px);
   -webkit-transform: translateX(-8px);
   transform: translateX(-8px);
 
-  -webkit-transition: -ms-transform 0.3s,
-                      -webkit-transform 0.3s,
-                      transform 0.3s,
-                      opacity 0.3s;
-  transition: -ms-transform 0.3s,
-              -webkit-transform 0.3s,
-              transform 0.3s,
-              opacity 0.3s;
+  /* Transition for smooth fade-in and movement */
+  -webkit-transition: -ms-transform 0.3s, -webkit-transform 0.3s, transform 0.3s, opacity 0.3s;
+  transition: -ms-transform 0.3s, -webkit-transform 0.3s, transform 0.3s, opacity 0.3s;
+
+  /* Glowing effect matching futuristic title */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.7); /* Neon glow effect */
 }
+
+/* Tooltip on hover - background color and glow effect */
+.link-hotspot-tooltip:hover {
+  background-color: rgba(0, 255, 255, 0.8); /* Light cyan glow */
+  box-shadow: 0 0 30px rgba(0, 255, 255, 1); /* More intense neon glow */
+  opacity: 1; /* Show tooltip when hovered */
+  transform: translateX(0px); /* Tooltip moves into place */
+}
+
 
 .mobile .link-hotspot {
   top: 19px; /* ( 70 - (16 + 2*8) ) / 2 */
@@ -453,12 +516,29 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: rgba(58, 68, 84, 0.8); /* Transparent, dark background */
   cursor: pointer;
+  opacity: 0.9;
+
+  /* Glowing effect matching futuristic title */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Neon cyan glow */
+  
+  /* Smooth transitions for interactivity */
   -webkit-transition: width 0.3s ease-in-out 0.5s,
-                      border-radius 0.3s ease-in-out 0.5s;
+                      border-radius 0.3s ease-in-out 0.5s,
+                      box-shadow 0.3s ease-in-out, 
+                      opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out 0.5s,
-              border-radius 0.3s ease-in-out 0.5s;
+              border-radius 0.3s ease-in-out 0.5s,
+              box-shadow 0.3s ease-in-out,
+              opacity 0.3s ease-in-out;
+}
+
+/* Hover effect for info-hotspot-header */
+.info-hotspot .info-hotspot-header:hover {
+  opacity: 1; /* Full opacity on hover */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 1); /* Stronger glowing effect */
+  transform: scale(1.1); /* Slight scale-up for more interactivity */
 }
 
 .mobile .info-hotspot .info-hotspot-header {
